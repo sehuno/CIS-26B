@@ -1,0 +1,3 @@
+gcc hw4_ec.c -o ec
+./ec
+

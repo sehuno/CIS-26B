@@ -1,0 +1,13 @@
+Argument 0 is e_4_14_cmd_line_arg.exe
+Argument 1 is one
+Argument 2 is two
+Argument 3 is three
+Argument 4 is four
+Argument 5 is five
+
+Argument pointed at by mover is e_4_14_cmd_line_arg.exe
+Argument pointed at by mover is one
+Argument pointed at by mover is two
+Argument pointed at by mover is three
+Argument pointed at by mover is four
+Argument pointed at by mover is five

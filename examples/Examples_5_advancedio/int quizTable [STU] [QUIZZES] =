@@ -1,0 +1,15 @@
+int quizTable [STU] [QUIZZES] =
+{                 
+    {10,  8,  9, 10,  4,  7, 10,  9}, 
+    { 7, 10,  8,  9,  6,  8,  9, 10}, 
+    // … more lines here: a total of 46 
+};
+
+int stu     = 46; // … students in a class
+int quizzes =  8; // … a total of 8 quizzes
+
+
+int calcAvgQuiz(int [][QUIZZES], int numStudents) 
+{
+	
+}

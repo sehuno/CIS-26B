@@ -1,0 +1,49 @@
+/************************  Cross Reference Listing  ************************/
+
+Cross reference listing made at:  Thu Mar 10 21:49:52 2016
+
+
+FILE                    5   
+TREE                    6   
+argc                    3   
+argv                    3    8   
+char                    3   
+exit                   10   
+fclose                 18   
+fopen                   8   
+free                   16   
+freeTree               16   
+generateTreeFromFile   12   
+if                      9   
+include                 1   
+inputFile               5    8    9   12   14   18   
+int                     3   
+main                    3   
+outputFile              5   14   18   
+printf                 10   
+return                 20   
+root                   14   16   
+tree                    6   12   14   16   
+writeToFile            14   
+
+1      : #include "write.h"
+2      : 
+3      : int main(int argc, char **argv) 
+4      : {
+5      : 	FILE *inputFile, *outputFile;		// Two file pointers for input file and output file
+6      :  	TREE *tree;							// Tree pointer for tree of word nodes
+7      : 
+8      : 	inputFile = fopen(argv[1], "r");	// Open inputfile using the first argument being the input file path 
+9      : 	if(!inputFile)											// if error opening, print message and exit program.
+10     : 		printf("Error opening file!!!\n"), exit(101); 
+11     : 
+12     : 	tree = generateTreeFromFile(inputFile);				// generates tree of word nodes from the inputfile
+13     : 
+14     : 	writeToFile(inputFile, outputFile, tree->root);		// writes the cross reference listing and timestamp to the output file 
+15     : 
+16     : 	freeTree(tree->root); free(tree);					// free all dynamically allocated memory
+17     : 
+18     : 	fclose(inputFile); fclose(outputFile);				// closes file pointers after use.
+19     : 
+20     : 	return 0;
+21     : }

@@ -1,0 +1,19 @@
+C is a general-purpose computer programming language developed between 1969 and 1973 
+by Dennis Ritchie at the Bell Telephone Laboratories for use with the Unix operating 
+system. Although C was designed for implementing system software, it is also widely 
+used for developing portable application software. C is one of the most popular 
+programming languages of all time and there are very few computer architectures for 
+which a C compiler does not exist. C has greatly influenced many other popular 
+programming languages, most notably C++, which began as an extension to C.
+
+C is an imperative (procedural) systems implementation language. It was designed to 
+be compiled using a relatively straightforward compiler, to provide low-level access 
+to memory, to provide language constructs that map efficiently to machine 
+instructions, and to require minimal run-time support. C was therefore useful for 
+many applications that had formerly been coded in assembly language.
+
+Despite its low-level capabilities, the language was designed to encourage 
+cross-platform programming. A standards-compliant and portably written C program 
+can be compiled for a very wide variety of computer platforms and operating systems 
+with few changes to its source code. The language has become available on a very 
+wide range of platforms, from embedded microcontrollers to supercomputers.
